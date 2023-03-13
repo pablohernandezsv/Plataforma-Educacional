@@ -119,6 +119,25 @@ section.principal {
     padding: 50px 20px;
 }
 
+.difs-class {
+    border-radius: 10px;
+    background-color: #00293a;
+    height: 400px;
+    width: 40%;
+    margin-right: 1%;
+    padding: 50px 20px;
+}
+
+.difs-class p {
+    font-size: 14px;
+    color: rgb(201, 201, 201);
+    line-height: 30px;
+}
+
+.difs-class h2 {
+    color: white;
+}
+
 .difs-um i{
     color: red;
 }
