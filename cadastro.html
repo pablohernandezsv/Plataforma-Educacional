@@ -1,15 +1,84 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Cadastro</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-<p>Dados de cadastro</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Tera</title>
+        <link rel="stylesheet" href="Style\style.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="center">
+                <div class="logo">
+                    <h2>Projeto Tera</h2>
+                </div>
+                <!--logo-->
+                <div class="menu">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="#">Sobre</a>
+                    <a class="botao-menu" href="login.html">Login</a>
+                </div>
+                <!--menu-->
+            </div>
+            <!--header-->
+        </header>
+    
+        <section class="principal">
+            <div class="center">
+                <div class="principal-txt">
+                    <h2>Página Principal</h2>
+                    <p>Nós somos o Projeto Tera</p>
+                    <button>Comece agora!</button>
+                </div>
+                <!--principal-txt-->
+    
+               
+                
+                    <div class="difs-um">
+                        <i class=""></i>
+                        <h2>Cadastro</h2>
+                        <label for="nome">Nome: </label> <input id="nome" type="nome">
+                        <label for="sobrenome">Sobrenome: </label> <input id="sobrenome" type="sobrenome">
+                        <label for="e-mail">E-mail: </label> <input id="email" type="email">
+                        <label  for="senha">Senha: </label> <input id="senha" style="-webkit-text-security: square" type="senha">
+                        <button class="cadastro" onclick="Cadastro()">cadastrar</button>
+                        <a tabindex="1" href="cadastro.html" class="text-white">NÃO ESTÁ CADASTRADO?</a>
+                    </div>
+                
+                <!--difs-->
+    
+            </div>
+            <!--center-->
+        </section>
+        <!--principal-->
+    
+        <section class="sobre">
+            <div class="center-bx">
+                <div class="info-sobre">
+                    <h2>Sobre o Projeto Tera</h2>
+                    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.</p>
+                     <h3>asdasd asd asdasd asdas</h3>
+                     <link rel="cadastro" href="cadastro.html">
+                     
+                </div>
+            </div>
+        </section>
+    
+    
+    
+    
+    
+    </body>
+    
+    </html>
 
 </body>
+<script src="app/app.js"></script>
 </html>
