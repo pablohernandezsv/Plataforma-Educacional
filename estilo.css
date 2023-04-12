@@ -1,8 +1,54 @@
-header {
+.bg-custom-tera {
+    background-color: #000000 !important;
+  }
+  
+  .border-custom-tera {
+    border-color: #1d0a36 !important;
+  }
+  
+  .padding-custom-nav {
+    padding-top: 12px;
+    padding-bottom: 1em;
+    /* padding-left: 0.5em; */
+  }
 
+  .img-fixed-height {
+    max-height: 400px;
+  }
+
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff;
 }
 
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-link {color: #fff;}
+
+.btn {
+  color: #fff;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: greenyellow;
+}
+
+.lead {
+  color: #fff;
+}
+
+.text-body-emphasis {
+  --bs-text-opacity: 1;
+  color: var(--bs-emphasis-color)!important;
+}
+
+.logo {
+height: 450px;
+width: 450px;
+
+}
 body {
     background: rgb(2,0,36);
-    background: linear-gradient(273deg, white, cyan 50%, white 100%);
+    background: linear-gradient(273deg, rgba(17, 77, 146) 0%, rgba(40,170,90,1) 50%, rgb(17, 77, 146) 100%);
 }
