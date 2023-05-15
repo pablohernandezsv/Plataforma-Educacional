@@ -1,0 +1,98 @@
+* {
+    font-family: 'Poppins' sans-serif;
+}
+.bg-primary-color {
+    background-color: #fff;
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+
+.bg-dark-color {
+background-color: #050505;
+}
+
+.primary-color {
+    color: #050505;
+}
+
+.secondary-color {
+    color: #7a7a7a;
+}
+
+/*NAVBAR*/
+
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+
+#navbar a:hover{
+    color: #7a7a7a;
+}
+
+.nav-link {
+    font-size: 1.15em;
+}
+
+#navbar a.active {
+    font-size: 1.15em;
+    border-bottom: 1px solid #050505;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-brand span {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+   margin: 0 1em;
+}
+
+.cadastro {
+    font-size: 1em;
+    padding: 10px;
+    margin-right: 1em;
+    border-right: 1px solid black;
+}
+
+
+.login {
+    font-size: 1.05em;
+}
+
+
+.login:hover{
+    animation: 2s;
+    color: #fff !important;
+    border-radius: 6px;
+    box-shadow: 3px 3px black;
+}
+
+.btn{
+    font-size: 1.1em;
+    
+}
+
+.btn:hover {
+    animation: 2s;
+    color: #fff !important;
+    border-radius: 6px;
+    box-shadow: 4px 4px black;
+}
