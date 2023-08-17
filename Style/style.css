@@ -1,207 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.bg-custom-tera {
+    background-color: #000000 !important;
+  }
+  
+  .border-custom-tera {
+    border-color: #1d0a36 !important;
+  }
+  
+  .padding-custom-nav {
+    padding-top: 12px;
+    padding-bottom: 1em;
+    /* padding-left: 0.5em; */
+  }
 
-*{ margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins';
+  .img-fixed-height {
+    max-height: 400px;
+  }
+
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff;
 }
 
-.center {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2%;
-    display: flex;
-    flex-wrap: wrap;
+.navbar-brand {
+  color: #fff;
 }
 
-header {
-    background-color: white;
-    padding: 23px 0;
+.nav-link {color: #fff;}
+
+.btn {
+  color: #fff;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: greenyellow;
+}
+
+.lead {
+  color: #fff;
+}
+
+.text-body-emphasis {
+  --bs-text-opacity: 1;
+  color: var(--bs-emphasis-color)!important;
 }
 
 .logo {
-    color: #16507b;
-}
-
-.logo h2 {
-    font-weight: normal;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.menu {
-    width: 80%;
-    text-align: right;
-}
-
-.menu a {
-    color: #124256;
-    font-size: 14px;
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-.menu a:hover {
-color: #007bff;
-}
-
-.menu .botao-menu {
-   background-color: #124256;
-   display: inline-block;
-   padding: 6px 30px;
-   border-radius: 7px;
-   color: white;
-
-} 
-
-.menu .botao-menu:hover{
-    background-color: #007bff;
-    color: white;
-}
-
-section.principal {
-    background: linear-gradient(270deg, #005281, #4ca3b2, #4ca3b2, #005281);    padding: 70px 0;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: 0px 0px 15px
-}
-
-
-.principal-txt {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-}
-
-.principal-txt h2 {
-    color: #ffffff;
-    font-size: 50px;
-    
-}
-
-.principal-txt p {
-    color: rgb(250, 250, 250);
-    font-size: 25px;
-    margin: 15px 0;
-}
-
-.principal-txt button {
-    background-color: #124256;
-    display: inline-block;
-    padding: 6px 30px;
-    font-size: 15px;
-    border-radius: 7px;
-    color: white;
-    border: 0;
-    cursor: pointer;
-}
-
-.principal-txt button:hover {
-    background-color: #0058fc;
-    color: white;
+height: 450px;
+width: 450px;
 
 }
-
-.difs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.difs-um {
-    border-radius: 10px;
-    background-color: #00293a;
-    height: 300px;
-    width: 30%;
-    margin-right: 1%;
-    padding: 50px 20px;
-}
-
-.difs-curso {
-    border-radius: 10px;
-    background-color: #00293a;
-    height: 400px;
-    width: 40%;
-    margin-right: 1%;
-    padding: 50px 20px;
-}
-
-.difs-curso p {
-    font-size: 14px;
-    color: rgb(201, 201, 201);
-    line-height: 30px;
-}
-
-.difs-curso h2 {
-    color: white;
-}
-
-.difs-aula {
-    border-radius: 10px;
-    background-color: #00293a;
-    height: 100%;
-    width: 90%;
-    margin-right: 1%;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.difs-aula p {
-    font-size: 14px;
-    color: rgb(201, 201, 201);
-    line-height: 30px;
-}
-
-.difs-aula h2 {
-    color: white;
-}
-
-.difs-um i{
-    color: red;
-}
-
-.difs-um p {
-    font-size: 14px;
-    color: rgb(201, 201, 201);
-    line-height: 30px;
-}
-
-.difs-um h2 {
-    color: white;
-}
-
-.section-sobre {
-    padding: 20px 0;
-    color: #124256;
-}
-
-.center-bx {
- padding: 10px;
-}
-
-.info-sobre {
-    
-    text-align: center;
-}
-
-.info-sobre p {
-    margin:15px 0;
-    line-height: 30px;
-    font-size: 14px;
-    color:#124256
-}
-
-.info-sobre h2 {
-    padding: 20px;
-    color:#124256
-}
-
-
-@media screen and (max-width: 768px) {
-.difs-um {
-    width: 100%;
-    margin-bottom: 20px;
-}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(273deg, rgba(17, 77, 146) 0%, rgba(40,170,90,1) 50%, rgb(17, 77, 146) 100%);
 }

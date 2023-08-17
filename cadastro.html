@@ -1,84 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Projeto Tera</title>
-        <link rel="stylesheet" href="Style\style.css">
-    </head>
-    
-    <body>
-        <header>
-            <div class="center">
-                <div class="logo">
-                    <h2>Projeto Tera</h2>
-                </div>
-                <!--logo-->
-                <div class="menu">
-                    <a href="index.html">
-                        Home
-                    </a>
-                    <a href="#">Sobre</a>
-                    <a class="botao-menu" href="login.html">Login</a>
-                </div>
-                <!--menu-->
-            </div>
-            <!--header-->
-        </header>
-    
-        <section class="principal">
-            <div class="center">
-                <div class="principal-txt">
-                    <h2>Página Principal</h2>
-                    <p>Nós somos o Projeto Tera</p>
-                    <button>Comece agora!</button>
-                </div>
-                <!--principal-txt-->
-    
-               
-                
-                    <div class="difs-um">
-                        <i class=""></i>
-                        <h2>Cadastro</h2>
-                        <label for="nome">Nome: </label> <input id="nome" type="nome">
-                        <label for="sobrenome">Sobrenome: </label> <input id="sobrenome" type="sobrenome">
-                        <label for="e-mail">E-mail: </label> <input id="email" type="email">
-                        <label  for="senha">Senha: </label> <input id="senha" style="-webkit-text-security: square" type="senha">
-                        <button class="cadastro" onclick="Cadastro()">cadastrar</button>
-                        <a tabindex="1" href="cadastro.html" class="text-white">NÃO ESTÁ CADASTRADO?</a>
-                    </div>
-                
-                <!--difs-->
-    
-            </div>
-            <!--center-->
-        </section>
-        <!--principal-->
-    
-        <section class="sobre">
-            <div class="center-bx">
-                <div class="info-sobre">
-                    <h2>Sobre o Projeto Tera</h2>
-                    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged.</p>
-                     <h3>asdasd asd asdasd asdas</h3>
-                     <link rel="cadastro" href="cadastro.html">
-                     
-                </div>
-            </div>
-        </section>
-    
-    
-    
-    
-    
-    </body>
-    
-    </html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="../Projeto Tera/img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Projeto Tera</title>
+    <link rel="stylesheet" href="login/estilo.css">
+</head>
+
+<body>
+    <section class="login-area">
+        <div class="login">
+            <form id="cadastroForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required><br><br>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required><br><br>
+                
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required><br><br>
+                
+                <input type="button" value="Cadastrar" onclick="cadastrar()">
+            </form>
+            
+            <script src="app/app.js"></script>
+            
+        </div>
+    </section>
 </body>
-<script src="app/app.js"></script>
+
 </html>
+

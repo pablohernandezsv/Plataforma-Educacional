@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+</head>
+<body>
+    <h2>Cadastro</h2>
+    <form id="signupForm">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" required><br><br>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required><br><br>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required><br><br>
+        
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    <p id="message"></p>
+
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            const response = await fetch('/signup', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, email, password })
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                document.getElementById('message').textContent = data.message;
+            } else {
+                document.getElementById('message').textContent = 'Erro ao cadastrar usuário.';
+            }
+        });
+    </script>
+</body>
+</html>
